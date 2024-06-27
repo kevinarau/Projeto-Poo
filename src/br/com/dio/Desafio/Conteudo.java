@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public abstract class Conteudo {
 
-  protected static final double XP_PADRAO = 10d;
+  protected static final double XP_PADRAO = 20d;
 
   protected String Titulo;
   public String Descricao;

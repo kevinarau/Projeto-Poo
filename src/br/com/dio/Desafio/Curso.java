@@ -4,17 +4,17 @@ public class Curso extends Conteudo {
 
 
 
-private String CargaHoraria;
+private int CargaHoraria = 8;
 
 
     @Override
     public double calcularXp() {
-        return 0;
+        return XP_PADRAO + CargaHoraria;
     }
 
 
-    public String getCargaHoraria() {
-        return CargaHoraria;
+    public int getCargaHoraria() {
+        return CargaHoraria ;
     }
 
     public void  setCarcaHoraria(int cargaHoraria) {
