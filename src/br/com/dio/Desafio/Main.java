@@ -22,7 +22,6 @@ public class Main {
         mentoria1.setData(LocalDate.now());
 
 
-        System.out.println(mentoria1);
 
 
 

@@ -1,8 +1,11 @@
 package br.com.dio.Desafio;
 
-import java.time.LocalDate;
-
 public class Curso extends Conteudo {
+
+
+
+private String CargaHoraria;
+
 
     @Override
     public double calcularXp() {
@@ -10,20 +13,20 @@ public class Curso extends Conteudo {
     }
 
 
-    public int getCarcaHoraria() {
-        return CarcaHoraria;
+    public String getCargaHoraria() {
+        return CargaHoraria;
     }
 
-    public void setCarcaHoraria(int carcaHoraria) {
-        CarcaHoraria = carcaHoraria;
+    public void  setCarcaHoraria(int cargaHoraria) {
+       int CargaHoraria = cargaHoraria;
     }
 
     @Override
     public String toString() {
         return "Curso{" +
-                "Titulo='" + Titulo + '\'' +
-                ", Descricao='" + Descricao + '\'' +
-                ", CarcaHoraria=" + CarcaHoraria +
+                "Titulo='" + getTitulo() + '\'' +
+                ", Descricao='" + getDescricao() + '\'' +
+                ", CarcaHoraria=" + CargaHoraria +
                 '}';
     }
 
