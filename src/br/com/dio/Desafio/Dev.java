@@ -17,7 +17,7 @@ public class Dev {
        }
 
         public void progredir(){
-            Optional<Conteudo> conteudo = this.conteudoInscritos.stream().forEach();
+            Optional<Conteudo> conteudo = this.conteudoInscritos.stream().findFirst();
             if (conteudo.isPresent()){
                 this.conteudosConcluidos.add(conteudo.get());
                 this.conteudoInscritos.remove(conteudo.get());
