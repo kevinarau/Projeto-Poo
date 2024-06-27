@@ -1,29 +1,14 @@
 package br.com.dio.Desafio;
 
-public class Curso {
-   private String Titulo;
-    private String Descricao;
-    private int CarcaHoraria;
+import java.time.LocalDate;
 
+public class Curso extends Conteudo {
 
-    public Curso() {
+    @Override
+    public double calcularXp() {
+        return 0;
     }
 
-    public String getTitulo() {
-        return Titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        Titulo = titulo;
-    }
-
-    public String getDescricao() {
-        return Descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        Descricao = descricao;
-    }
 
     public int getCarcaHoraria() {
         return CarcaHoraria;
@@ -41,4 +26,9 @@ public class Curso {
                 ", CarcaHoraria=" + CarcaHoraria +
                 '}';
     }
+
+
 }
+
+
+

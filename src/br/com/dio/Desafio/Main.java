@@ -16,14 +16,13 @@ public class Main {
         curso2.setCarcaHoraria(10);
 
 
-        Mentoria mentoria = new Mentoria();
-        mentoria.setTitulo("java ");
-        mentoria.setDescricao("java projeto");
-        mentoria.setData(LocalDate.now());
+        Mentoria mentoria1 = new Mentoria();
+        mentoria1.setTitulo("java ");
+        mentoria1.setDescricao("java projeto");
+        mentoria1.setData(LocalDate.now());
 
-        System.out.println(curso);
-        System.out.println(curso2);
-        System.out.println(mentoria);
+
+        System.out.println(mentoria1);
 
 
 
